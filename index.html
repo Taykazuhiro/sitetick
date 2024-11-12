@@ -4,31 +4,56 @@
 <body>
     <nav>
         <h1>TICK.COM - PET SAFE FLOWERSHOP</h1>
-        link de perfil
-        link de home
-        link de menu de navegação 
+        <img src="img\home icon.png" alt="a minimalist home draw">
+        <img src="img\profile icon.png" alt="a minimalist person draw">
+        <img src="img\menu icon.png">
     </nav>
     <section>
-        imagem promocional
+        <img src="img\promo image.jpg" alt="two dog with flowers">
     </section>
     <section>
         <section>
             alinhada à direita
-            <nav>
-                menu de naveção 2 (superior)
-                link outlet
-                link for dogs
-                link for cats
-                link for kids
-                link by accasion
+            <nav class="menu2">
+                <ul>
+                    <li>
+                        <a href="#Outlet"> Outlet </a>
+                    </li>
+                    <li>
+                        <a href="#fordogs"> For Dogs </a>
+                    </li>
+                    <li>
+                        <a href="#Forcats"> For Cats </a>
+                    </li>
+                    <li>
+                        <a href="#ForKids"> For Kids </a>
+                    </li>
+                    <li>
+                        <a href="#byoccasion"> By Occasion </a>
+                    </li>
+                </ul>
             </nav>
-            texto our services 
+            <h2> Our services </h2>
+                <h3 id="Outlet">Outlet</h3>
+                    <p>We sell flowers indivually so you can save your money </p>
+                <h3 id="fordogs">For Dogs</h3>
+                    <p>We have a dedicated section only with dog safe flowers and plants</p>
+                <h3 id="forcats"> For Cats</h3>
+                    <p>We have a dedicated section only with cat safe flowers and plants</p>
+                <h3 id="forkids">For Kids</h3>
+                    <p>We have a dedicated section only with kids safe flowers and plants</p>
+                <h3 id="byoccasion"> By Occasion</h3>
+                    <p>We have a dedicated section wiht flowers and plants filtred by occasion</p> 
         </section>
         <section>
-            <form>
-                formulário de pesquisa de cep
-                favoritos
+            <form autocomplete="on">
+                <label for="CEP">CEP:</label>
+                <input id="CEP" type="number">
+                
+                <button id="bt-enviar">Enviar</button>
             </form>
+            <h3>Favorites</h3>
+            <p>Here you can find you favorite list</p>
         </section>
     </section>
 </body>
