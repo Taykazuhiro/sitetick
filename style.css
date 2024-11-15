@@ -1,0 +1,24 @@
+body{
+    text-align: center;
+}
+
+.menu1 ul li {
+    display: inline-block;    
+}
+
+section{
+    background-color: blueviolet;
+}
+
+.menu2{
+    background-color: red;
+    max-width: 50%;
+    margin-left: 40%;
+    height: 40;
+}
+
+.menu2 ul li{
+    display: inline-block;
+    font-size: larger;
+    margin-left: 40;
+}
