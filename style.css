@@ -20,25 +20,23 @@ body{
     display: inline-block;
     margin: auto;  
 }
+.bloco3 {
+    display: inline-table;
+    background-color: yellow;
+}
 
 .bloco3 div{
     display: inline-block;
     background-color: aqua;
-    
 }
 
 form{
     background-color: blueviolet;
     border: black;
-    
-}
-
-.menu2{
-    background-color: yellow;
-    padding: 0%;
 }
 
 .menu2 ul li{
+    text-align: right;
     display: inline-block;
     font-size: larger;
     margin-left: 3%;
@@ -47,15 +45,4 @@ form{
     width: 10%;
     height: 10%;
     padding-top: 1.5%;
-}
-
-.bloco2{
-    background-color: blue;
-    max-width: 30%;
-}
-
-.bloco1{
-    max-width: 70%;
-    margin-left: 30%;
-    height: 0;
 }
