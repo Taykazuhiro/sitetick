@@ -1,18 +1,17 @@
 body{
     margin: 1.7%;
     background-color: #F5F5F5;
-    text-align: center;
 }
-.menu{
+.barra-navegacao{
     background-color: #A6896F;
     color: #4F5902;
 }
 
-.menu div{
+.barra-navegacao div{
     display: inline-block;
 }
 
-.menu1{
+.menu1 {
     margin-left: 40%;
 }
 .menu1 ul li {
@@ -20,29 +19,35 @@ body{
     display: inline-block;
     margin: auto;  
 }
-.bloco3 {
-    display: inline-table;
-    background-color: yellow;
+
+.bloco1 div{
+    display: inline-flex;
+    align-items: center;
+    margin-top: 10px;
 }
 
-.bloco3 div{
-    display: inline-block;
-    background-color: aqua;
+form {
+    display: inline-flex;
+    margin-left: 30%;
+    
 }
 
-form{
-    background-color: blueviolet;
-    border: black;
+.menu2 {
+    margin-left: 25%;
+    
 }
 
-.menu2 ul li{
-    text-align: right;
+.menu2 ul li {
     display: inline-block;
     font-size: larger;
-    margin-left: 3%;
+
+    
+}
+
+.menu2 a {
     border-radius: 50%;
-    background: #4F5902;
-    width: 10%;
-    height: 10%;
-    padding-top: 1.5%;
+    background-color: #4F5902;
+    margin-left: 10px;
+    color: white;
+    padding: 15px 5px;
 }
