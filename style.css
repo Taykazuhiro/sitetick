@@ -49,5 +49,25 @@ form {
     background-color: #4F5902;
     margin-left: 10px;
     color: white;
-    padding: 15px 10px;
+    padding: 15px 0px;
+}
+
+.bloco2 {
+    display: inline-flex;
+    background-color: yellow;
+    margin-left: 8%;
+}
+
+.bloco3 {
+    display: inline-flex;
+    background-color: blue;
+    margin-left: 25%;
+}
+
+.bloco2 h3{
+    background-color: red;
+}
+
+.bloco2 p{
+    background-color: purple;
 }
