@@ -20,54 +20,65 @@ body{
     margin: auto;  
 }
 
-.bloco1 div{
-    display: inline-flex;
-    align-items: center;
+.bloco1 {
+    display: grid;
+    grid-template-columns: 30% 70%;
     margin-top: 10px;
+    align-items: center;
+
 }
 
 form {
-    display: inline-flex;
-    margin-left: 30%;
+    align-items: center;
+    margin-left: 15%;
     
 }
 
 .menu2 {
-    margin-left: 25%;
+    margin-left: 30%;
     
 }
 
 .menu2 ul li {
     display: inline-block;
-    font-size: larger;
-
-    
+    border-color: #401E0A;
 }
 
 .menu2 a {
     border-radius: 50%;
-    background-color: #4F5902;
+    font-size: larger;
     margin-left: 10px;
-    color: white;
+    color: #4F5902;
     padding: 15px 0px;
+    background-color: #D9D9D9;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    margin-top: 2%;
 }
 
 .bloco2 {
-    display: inline-flex;
-    background-color: yellow;
-    margin-left: 8%;
-}
-
-.bloco3 {
-    display: inline-flex;
-    background-color: blue;
-    margin-left: 25%;
+    text-align: center;
+    background-color: #D9D9D9;
+    margin-left: 10%;
 }
 
 .bloco2 h3{
-    background-color: red;
+    color: #4F5902;
 }
 
-.bloco2 p{
-    background-color: purple;
+.bloco3 {
+    text-align: center;
+    background-color: #D9D9D9;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.bloco3 h3{
+    color: #4F5902;    
+}
+.bloco3 h2{
+    color: #401E0A;
 }
