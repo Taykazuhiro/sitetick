@@ -1,6 +1,7 @@
 body{
     margin: 1.7%;
     background-color: #F5F5F5;
+    color: #401E0A;
 }
 .barra-navegacao{
     background-color: #A6896F;
@@ -30,8 +31,7 @@ body{
 
 form {
     align-items: center;
-    margin-left: 15%;
-    
+    margin-left: 15%; 
 }
 
 .menu2 {
@@ -45,12 +45,21 @@ form {
 }
 
 .menu2 a {
+    /* border: #401E0A solid 0.5px; */
     border-radius: 50%;
     font-size: larger;
     margin-left: 10px;
     color: #4F5902;
     padding: 15px 0px;
     background-color: #D9D9D9;
+}
+
+.menu2 a:hover{
+    color:#401E0A
+}
+
+.menu2 a:focus-visible{
+    color:#A6896F;
 }
 
 .container{
@@ -81,4 +90,35 @@ form {
 }
 .bloco3 h2{
     color: #401E0A;
+}
+
+
+.bloco1 input{
+    border: #401E0A solid 1.5px;
+}
+.bloco1 input:focus-visible{
+    background-color: #A6896F;
+}
+.bloco1 input{
+    border: #401E0A solid 1.5px;
+}
+.bloco1 input:focus-visible{
+    background-color: #A6896F;
+}
+.bloco1 button{
+    background-color: #A6896F;
+    padding: 2px 10px ;
+    border: #401E0A solid 1px;
+    border-radius: 2px;
+    color: #401E0A;
+    text-decoration: solid;
+}
+
+.bloco1 button:hover{
+    background-color: #401E0A;
+    color: #A6896F;
+}
+
+.bloco1 button:focus-visible{
+    color: #4F5902;
 }
